@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'skinnybold';
+    src: url('fonts/theskinny-bold_1-webfont.ttf') format('truetype'),
+		 url('fonts/theskinny-bold_1-webfont.woff2') format('woff2'),
+         url('fonts/theskinny-bold_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'small';
+    src: url('fonts/small.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+	unicode-range: U+00-FF;
+}
+@font-face {
+    font-family: 'small_b';
+    src: url('fonts/small_b.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ body {
+  display: block;
+  background: #ffffff;
+  font-family:small;
+  border:0;
+  margin:0;
+  padding:0;
+ }
+
+
+ .center_content {
+  display: block;
+  min-width: 1280px; 
+  max-width: 1280px; 
+  height: 100%;
+  text-align:center;
+  margin: 0 auto;
+ }
+ 
+  header {
+  display: block;
+  text-align:center;
+ }
+ .header_links {
+  display: inline-block;
+  text-align: right;
+  width: 800px;
+  margin-top: 30px;
+ }
+ 
+ .header_links__item {
+  display: inline-block;
+  font-family: skinnybold;
+  font-size:50px;
+  font-weight:bold;
+  margin-left: 35px;
+ }
+ 
+ .header_links__item a {
+  text-decoration: none;
+  color: #000000;
+ }
+ 
+ .hat {
+  display: block;
+  background-image: url(images/hat.png); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: right;
+  height: 400px;
+  width: 1280px;
+ }
+
+ .center_content__inner {
+  display: inline-block;
+  text-align: justify;
+  width: 800px;
+ }
+
+.text_block {
+  display: block;
+}
+
+.text_block h1 {
+  font-family: skinnybold;
+  text-align:center;
+  font-size:32px;
+  font-weight:bold;
+  margin-top: 140px;
+  margin-bottom: 30px;
+}
+
+.text_block h2 {
+  text-align:left;
+  font-family:small_b;
+  margin-top: 66px;
+}
+.text_block__text {
+  display:block;
+  text-align:justify;
+  font-size:24px;
+  font-weight:bold;
+}
+
+#Download {
+  text-align: center;
+}
+
+.video_block {
+  display: block;
+  background-color: #000000;
+  width: 688px;
+  height: 425px;
+  border-radius: 12px;  
+  margin: 60px auto;
+  overflow:hidden;
+}
+
+.video_block iframe {
+  width: 688px;
+  height: 425px;
+}
+
+.pic_block {
+  display: block;	
+  height: 300px;
+  width: 650px;
+  background-image: url(images/center.png);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 40px auto 20px auto;
+}
+
+ .download_btn {
+  display:inline-block;
+  background-color:#32468e;
+  width:130px;
+  padding: 20px 17px;
+  font-family: skinnybold;
+  font-size:30px;
+  color:#ffffff;
+  text-decoration: none;
+  margin-top:30px;
+  border-radius: 12px;  
+ }
+ .download_btn span {
+  display:inline-block;
+  height:32px;
+  width:14px;
+  background-image: url(images/arrow.png);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  vertical-align:bottom;
+  margin-left: 6px;
+ }
+ 
+.team_table {
+  display: block;
+  font-size:24px;
+  font-weight:bold;
+  width:100%;
+} 
+
+.team_table__row {
+  display:block;
+  text-align:justify;
+  width: 100%;
+}
+
+.team_table__left {
+  display:inline-block;
+  width: 42%;
+  vertical-align: top;
+}
+
+.team_table__right {
+  display:inline-block;	
+  width: 57%;
+  vertical-align: top;
+}
+
+ .team_table__row:after {  
+  display: inline-block;
+  visibility: hidden;
+  overflow: hidden;
+  content: "";
+ }
+
+footer {
+  display: block;
+}
+
+.footer_grass {
+  display: block;
+  background-image: url(images/footer.png); 
+    background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 160px;
+  width: 1280px;
+}
