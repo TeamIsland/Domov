@@ -67,14 +67,19 @@
  
  .hat {
   display: block;
-  background-image: url(images/hat.png); 
-  background-size: cover; 
-  background-repeat: no-repeat;
-  background-position: center center;
   text-align: right;
-  height: 400px;
-  width: 1280px;
+  min-height: 400px;
+  min-width: 1280px;
+  height:auto;
+  width:100%;
+  text-align:center;
  }
+ 
+ .hat img {
+	display:inline-block;
+	min-height:400px;
+	width:100%;
+}
 
  .center_content__inner {
   display: inline-block;
@@ -195,6 +200,7 @@
   content: "";
  }
 
+
 footer {
   display: block;
 }
@@ -202,9 +208,10 @@ footer {
 .footer_grass {
   display: block;
   background-image: url(images/footer.png); 
-    background-size: cover; 
-  background-repeat: no-repeat;
+  background-size: contain; 
+  background-repeat: repeat;
   background-position: center center;
   height: 160px;
-  width: 1280px;
+  min-width: 1280px;
+  width:100%;
 }
